@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {  
+  color: #FF5733;
+  font-family: 'Raleway', sans-serif;
+  background: #c4c2c2;
+}
+
+.avatar {
+  width: 80px;
+  border-radius: 50px;
+  border: 3px solid #FF5733;
+  box-shadow: 0 0 20px #FF5733;
+}
+
+h1 {
+  font-family: 'Architects Daughter', cursive;
+  font-weight: 100;
+  font-size: 24px;
+  margin-bottom: 2px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+.topo {
+  position: relative;
+}
+.capa {
+  width: 100vw;
+  height: 250px;
+  border-bottom: 3px solid #FF5733;
+  box-shadow: 0 0 20px #FF5733;  
+}
+
+.profile {
+  position: absolute;
+  top: 108%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 110px 0 0 0;
+  
+}
+
+.social img {
+  width: 33px;
+}
+
+.linktree {
+  padding: 0 10px;
+  list-style: none;
+}
+
+.linktree li {
+  background-color: #FFF;
+  padding: 12px 12px;
+  margin: 10px 10px;
+  border-radius: 8px;
+  border: 2px solid #FFF;
+  box-shadow: 0 0 10px #FFF;
+}
+
+.linktree li a {
+  color: gray;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.linktree li a strong {
+  display: block;
+  margin: 10px 0;
+  color: #FF5733;
+  font-size: 18px;
+}
+
+
